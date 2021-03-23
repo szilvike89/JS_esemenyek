@@ -12,12 +12,14 @@
 /*2. feladat: Illessz be egy tetszőleges képet, és hozz létre 
 egy eseményt.*/
 
-
+        
 
 /*3. feldat: Az oldal betöltését ellenőrizd, és üzenj a konzolon,
  ha betöltött.*/
 
-
+ function myFunction2(){
+    console.log("Betöltött az oldal");
+}
 
 /*4. feladat: Illessz be egy Lorem div-et és változtass meg 3 
 tulajdonságot JS-ből.*/
