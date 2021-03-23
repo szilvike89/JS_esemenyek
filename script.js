@@ -3,7 +3,7 @@
  felugró ablakban, majd írd ki egy p tag-be, 
  üdvözöllek + neve.*/
 
- function myFunction()
+    function myFunction()
         {
     let neve=prompt("Kérlek add meg a neved:");
     document.getElementById("first").innerHTML=("Üdvözöllek "+neve);
