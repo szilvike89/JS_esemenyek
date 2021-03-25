@@ -11,11 +11,16 @@
 
 /*2. feladat: Illessz be egy tetszőleges képet, és hozz létre 
 egy eseményt.*/
+        document.getElementById("kep").addEventListener('mouseover', mouseOver);
+        document.getElementById("kep").addEventListener('mouseout', mouseOut);
 
-function kep(){
-    
-}
-        
+        function mouseOver(){
+            document.getElementById("kep").style.border = "50px #66ff33 solid";
+        }
+
+        function mouseOut(){
+            document.getElementById("kep").style.border = "none";
+        }
 
 /*3. feldat: Az oldal betöltését ellenőrizd, és üzenj a konzolon,
  ha betöltött.*/
